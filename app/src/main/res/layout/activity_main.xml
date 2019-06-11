@@ -20,7 +20,6 @@
     android:layout_height="match_parent"
     android:id="@+id/list_view_music"
     android:textAlignment="center">
-
 </ListView>
 
 </LinearLayout>
