@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         listViewMusic = findViewById(R.id.list_view_music);
         adapter = new ArrayAdapter(this,R.layout.support_simple_spinner_dropdown_item);
+        System.out.println("Some thing done to check github");
         listViewMusic.setAdapter(adapter);
         for (int i=0;i<list.length;i++) {
             adapter.add(list[i]);
